@@ -7,6 +7,9 @@ using std::cout;
 using std::endl;
 
 int main(){
+    int x = 5;
+    int y = 7;
     cout << "Hello, world!" << endl;
-    return 0;
+    cout << x << " multiplied by " << y << " is " << x*y << endl; // using << acts like combining strings with + in java
+    return y^x;
 }
