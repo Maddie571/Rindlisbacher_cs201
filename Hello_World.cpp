@@ -1,6 +1,9 @@
 //
-// Created by mprindlisbacher on 9/1/2021.
+// Created by Matt Rindlisbacher on 9/1/2021.
 //
+
+
+
 
 #include <iostream>
 using std::cout;
@@ -13,3 +16,4 @@ int main(){
     cout << x << " multiplied by " << y << " is " << x*y << endl; // using << acts like combining strings with + in java
     return y^x;
 }
+
