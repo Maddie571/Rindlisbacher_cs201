@@ -128,12 +128,39 @@ Rindlisbacher_cs201/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rindlisbacher_cs201.dir\build.make CMakeFiles/Rindlisbacher_cs201.dir/build
 .PHONY : Rindlisbacher_cs201/fast
 
+#=============================================================================
+# Target rules for targets named Hello_World
+
+# Build rule for target.
+Hello_World: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hello_World
+.PHONY : Hello_World
+
+# fast build rule for target.
+Hello_World/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello_World.dir\build.make CMakeFiles/Hello_World.dir/build
+.PHONY : Hello_World/fast
+
+#=============================================================================
+# Target rules for targets named Homework0
+
+# Build rule for target.
+Homework0: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Homework0
+.PHONY : Homework0
+
+# fast build rule for target.
+Homework0/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework0.dir\build.make CMakeFiles/Homework0.dir/build
+.PHONY : Homework0/fast
+
 Hello_World.obj: Hello_World.cpp.obj
 .PHONY : Hello_World.obj
 
 # target to build an object file
 Hello_World.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rindlisbacher_cs201.dir\build.make CMakeFiles/Rindlisbacher_cs201.dir/Hello_World.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello_World.dir\build.make CMakeFiles/Hello_World.dir/Hello_World.cpp.obj
 .PHONY : Hello_World.cpp.obj
 
 Hello_World.i: Hello_World.cpp.i
@@ -142,6 +169,7 @@ Hello_World.i: Hello_World.cpp.i
 # target to preprocess a source file
 Hello_World.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rindlisbacher_cs201.dir\build.make CMakeFiles/Rindlisbacher_cs201.dir/Hello_World.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello_World.dir\build.make CMakeFiles/Hello_World.dir/Hello_World.cpp.i
 .PHONY : Hello_World.cpp.i
 
 Hello_World.s: Hello_World.cpp.s
@@ -150,7 +178,32 @@ Hello_World.s: Hello_World.cpp.s
 # target to generate assembly for a file
 Hello_World.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rindlisbacher_cs201.dir\build.make CMakeFiles/Rindlisbacher_cs201.dir/Hello_World.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello_World.dir\build.make CMakeFiles/Hello_World.dir/Hello_World.cpp.s
 .PHONY : Hello_World.cpp.s
+
+Homework0.obj: Homework0.cpp.obj
+.PHONY : Homework0.obj
+
+# target to build an object file
+Homework0.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework0.dir\build.make CMakeFiles/Homework0.dir/Homework0.cpp.obj
+.PHONY : Homework0.cpp.obj
+
+Homework0.i: Homework0.cpp.i
+.PHONY : Homework0.i
+
+# target to preprocess a source file
+Homework0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework0.dir\build.make CMakeFiles/Homework0.dir/Homework0.cpp.i
+.PHONY : Homework0.cpp.i
+
+Homework0.s: Homework0.cpp.s
+.PHONY : Homework0.s
+
+# target to generate assembly for a file
+Homework0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework0.dir\build.make CMakeFiles/Homework0.dir/Homework0.cpp.s
+.PHONY : Homework0.cpp.s
 
 # Help Target
 help:
@@ -160,10 +213,15 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Hello_World
+	@echo ... Homework0
 	@echo ... Rindlisbacher_cs201
 	@echo ... Hello_World.obj
 	@echo ... Hello_World.i
 	@echo ... Hello_World.s
+	@echo ... Homework0.obj
+	@echo ... Homework0.i
+	@echo ... Homework0.s
 .PHONY : help
 
 

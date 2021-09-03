@@ -63,6 +63,8 @@ CMAKE_BINARY_DIR = D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cm
 
 # The main recursive "all" target.
 all: CMakeFiles/Rindlisbacher_cs201.dir/all
+all: CMakeFiles/Hello_World.dir/all
+all: CMakeFiles/Homework0.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,6 +73,8 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Rindlisbacher_cs201.dir/clean
+clean: CMakeFiles/Hello_World.dir/clean
+clean: CMakeFiles/Homework0.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -80,7 +84,7 @@ clean: CMakeFiles/Rindlisbacher_cs201.dir/clean
 CMakeFiles/Rindlisbacher_cs201.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rindlisbacher_cs201.dir\build.make CMakeFiles/Rindlisbacher_cs201.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rindlisbacher_cs201.dir\build.make CMakeFiles/Rindlisbacher_cs201.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Rindlisbacher_cs201"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Rindlisbacher_cs201"
 .PHONY : CMakeFiles/Rindlisbacher_cs201.dir/all
 
 # Build rule for subdir invocation for target.
@@ -98,6 +102,58 @@ Rindlisbacher_cs201: CMakeFiles/Rindlisbacher_cs201.dir/rule
 CMakeFiles/Rindlisbacher_cs201.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rindlisbacher_cs201.dir\build.make CMakeFiles/Rindlisbacher_cs201.dir/clean
 .PHONY : CMakeFiles/Rindlisbacher_cs201.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hello_World.dir
+
+# All Build rule for target.
+CMakeFiles/Hello_World.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello_World.dir\build.make CMakeFiles/Hello_World.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello_World.dir\build.make CMakeFiles/Hello_World.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Hello_World"
+.PHONY : CMakeFiles/Hello_World.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hello_World.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Hello_World.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Hello_World.dir/rule
+
+# Convenience name for target.
+Hello_World: CMakeFiles/Hello_World.dir/rule
+.PHONY : Hello_World
+
+# clean rule for target.
+CMakeFiles/Hello_World.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello_World.dir\build.make CMakeFiles/Hello_World.dir/clean
+.PHONY : CMakeFiles/Hello_World.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Homework0.dir
+
+# All Build rule for target.
+CMakeFiles/Homework0.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework0.dir\build.make CMakeFiles/Homework0.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework0.dir\build.make CMakeFiles/Homework0.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Homework0"
+.PHONY : CMakeFiles/Homework0.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Homework0.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Homework0.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Homework0.dir/rule
+
+# Convenience name for target.
+Homework0: CMakeFiles/Homework0.dir/rule
+.PHONY : Homework0
+
+# clean rule for target.
+CMakeFiles/Homework0.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework0.dir\build.make CMakeFiles/Homework0.dir/clean
+.PHONY : CMakeFiles/Homework0.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
