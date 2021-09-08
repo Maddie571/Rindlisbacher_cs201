@@ -167,6 +167,19 @@ PickANumber/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PickANumber.dir\build.make CMakeFiles/PickANumber.dir/build
 .PHONY : PickANumber/fast
 
+#=============================================================================
+# Target rules for targets named Pick_a_Number
+
+# Build rule for target.
+Pick_a_Number: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Pick_a_Number
+.PHONY : Pick_a_Number
+
+# fast build rule for target.
+Pick_a_Number/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pick_a_Number.dir\build.make CMakeFiles/Pick_a_Number.dir/build
+.PHONY : Pick_a_Number/fast
+
 Hello_World.obj: Hello_World.cpp.obj
 .PHONY : Hello_World.obj
 
@@ -242,6 +255,33 @@ PickANumber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PickANumber.dir\build.make CMakeFiles/PickANumber.dir/PickANumber.cpp.s
 .PHONY : PickANumber.cpp.s
 
+Pick_a_Number.obj: Pick_a_Number.cpp.obj
+.PHONY : Pick_a_Number.obj
+
+# target to build an object file
+Pick_a_Number.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello_World.dir\build.make CMakeFiles/Hello_World.dir/Pick_a_Number.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pick_a_Number.dir\build.make CMakeFiles/Pick_a_Number.dir/Pick_a_Number.cpp.obj
+.PHONY : Pick_a_Number.cpp.obj
+
+Pick_a_Number.i: Pick_a_Number.cpp.i
+.PHONY : Pick_a_Number.i
+
+# target to preprocess a source file
+Pick_a_Number.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello_World.dir\build.make CMakeFiles/Hello_World.dir/Pick_a_Number.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pick_a_Number.dir\build.make CMakeFiles/Pick_a_Number.dir/Pick_a_Number.cpp.i
+.PHONY : Pick_a_Number.cpp.i
+
+Pick_a_Number.s: Pick_a_Number.cpp.s
+.PHONY : Pick_a_Number.s
+
+# target to generate assembly for a file
+Pick_a_Number.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello_World.dir\build.make CMakeFiles/Hello_World.dir/Pick_a_Number.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pick_a_Number.dir\build.make CMakeFiles/Pick_a_Number.dir/Pick_a_Number.cpp.s
+.PHONY : Pick_a_Number.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -253,6 +293,7 @@ help:
 	@echo ... Hello_World
 	@echo ... Homework0
 	@echo ... PickANumber
+	@echo ... Pick_a_Number
 	@echo ... Rindlisbacher_cs201
 	@echo ... Hello_World.obj
 	@echo ... Hello_World.i
@@ -263,6 +304,9 @@ help:
 	@echo ... PickANumber.obj
 	@echo ... PickANumber.i
 	@echo ... PickANumber.s
+	@echo ... Pick_a_Number.obj
+	@echo ... Pick_a_Number.i
+	@echo ... Pick_a_Number.s
 .PHONY : help
 
 
