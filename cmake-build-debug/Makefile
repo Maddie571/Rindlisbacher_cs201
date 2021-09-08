@@ -204,6 +204,30 @@ BoxesBoxesBoxes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make CMakeFiles/BoxesBoxesBoxes.dir/BoxesBoxesBoxes.cpp.s
 .PHONY : BoxesBoxesBoxes.cpp.s
 
+Fizz.obj: Fizz.cpp.obj
+.PHONY : Fizz.obj
+
+# target to build an object file
+Fizz.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make CMakeFiles/BoxesBoxesBoxes.dir/Fizz.cpp.obj
+.PHONY : Fizz.cpp.obj
+
+Fizz.i: Fizz.cpp.i
+.PHONY : Fizz.i
+
+# target to preprocess a source file
+Fizz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make CMakeFiles/BoxesBoxesBoxes.dir/Fizz.cpp.i
+.PHONY : Fizz.cpp.i
+
+Fizz.s: Fizz.cpp.s
+.PHONY : Fizz.s
+
+# target to generate assembly for a file
+Fizz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make CMakeFiles/BoxesBoxesBoxes.dir/Fizz.cpp.s
+.PHONY : Fizz.cpp.s
+
 Hello_World.obj: Hello_World.cpp.obj
 .PHONY : Hello_World.obj
 
@@ -295,6 +319,9 @@ help:
 	@echo ... BoxesBoxesBoxes.obj
 	@echo ... BoxesBoxesBoxes.i
 	@echo ... BoxesBoxesBoxes.s
+	@echo ... Fizz.obj
+	@echo ... Fizz.i
+	@echo ... Fizz.s
 	@echo ... Hello_World.obj
 	@echo ... Hello_World.i
 	@echo ... Hello_World.s

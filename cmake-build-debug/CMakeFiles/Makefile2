@@ -88,7 +88,7 @@ clean: CMakeFiles/BoxesBoxesBoxes.dir/clean
 CMakeFiles/Rindlisbacher_cs201.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rindlisbacher_cs201.dir\build.make CMakeFiles/Rindlisbacher_cs201.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rindlisbacher_cs201.dir\build.make CMakeFiles/Rindlisbacher_cs201.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Rindlisbacher_cs201"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target Rindlisbacher_cs201"
 .PHONY : CMakeFiles/Rindlisbacher_cs201.dir/all
 
 # Build rule for subdir invocation for target.
@@ -114,7 +114,7 @@ CMakeFiles/Rindlisbacher_cs201.dir/clean:
 CMakeFiles/Hello_World.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello_World.dir\build.make CMakeFiles/Hello_World.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hello_World.dir\build.make CMakeFiles/Hello_World.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Hello_World"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target Hello_World"
 .PHONY : CMakeFiles/Hello_World.dir/all
 
 # Build rule for subdir invocation for target.
@@ -140,7 +140,7 @@ CMakeFiles/Hello_World.dir/clean:
 CMakeFiles/Homework0.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework0.dir\build.make CMakeFiles/Homework0.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework0.dir\build.make CMakeFiles/Homework0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Homework0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target Homework0"
 .PHONY : CMakeFiles/Homework0.dir/all
 
 # Build rule for subdir invocation for target.
@@ -166,7 +166,7 @@ CMakeFiles/Homework0.dir/clean:
 CMakeFiles/PickANumber.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PickANumber.dir\build.make CMakeFiles/PickANumber.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PickANumber.dir\build.make CMakeFiles/PickANumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target PickANumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target PickANumber"
 .PHONY : CMakeFiles/PickANumber.dir/all
 
 # Build rule for subdir invocation for target.
@@ -192,12 +192,12 @@ CMakeFiles/PickANumber.dir/clean:
 CMakeFiles/BoxesBoxesBoxes.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make CMakeFiles/BoxesBoxesBoxes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make CMakeFiles/BoxesBoxesBoxes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target BoxesBoxesBoxes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target BoxesBoxesBoxes"
 .PHONY : CMakeFiles/BoxesBoxesBoxes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BoxesBoxesBoxes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BoxesBoxesBoxes.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/BoxesBoxesBoxes.dir/rule
