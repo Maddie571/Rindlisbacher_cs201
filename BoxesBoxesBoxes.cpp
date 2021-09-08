@@ -16,12 +16,25 @@ int main(){
     cout << "\n";
     i = 0; //reset for part 2
     int j = 0;
-    while (i < 10){
+    while (i < 10){ //part 2: print a 60x10 array of *
         i++;
-        while (j <60){
+        while (j < 60){
             j++;
             cout << "*";
         }
+        j = 0;
+        cout << "\n";
+    }
+
+    i = 0; //reset for part 3
+    j = 0;
+    while (i < 10){ //part 3: make part 2 change symbols
+        i++;
+        while (j < 30){
+            j++;
+            cout << "*$";
+        }
+        j = 0;
         cout << "\n";
     }
     return i;
