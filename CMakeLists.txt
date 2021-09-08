@@ -4,9 +4,9 @@ project(Rindlisbacher_cs201)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Rindlisbacher_cs201
-        Hello_World.cpp BoxesBoxesBoxes.cpp)
+        Hello_World.cpp)
 
-add_executable(Hello_World Hello_World.cpp Pick_a_Number.cpp)
+add_executable(Hello_World Hello_World.cpp)
 add_executable(Homework0 Homework0.cpp)
 add_executable(PickANumber PickANumber.cpp)
 add_executable(BoxesBoxesBoxes BoxesBoxesBoxes.cpp)
