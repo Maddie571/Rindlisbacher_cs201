@@ -1,17 +1,4 @@
 "D:\Users\mprindlisbacher\AppData\Local\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" D:\Users\mprindlisbacher\CLionProjects\Rindlisbacher_cs201
 -- Configuring done
-CMake Error at CMakeLists.txt:9 (add_executable):
-  Cannot find source file:
-
-    Pick_a_Number.cpp
-
-
-CMake Error at CMakeLists.txt:9 (add_executable):
-  No SOURCES given to target: Hello_World
-
-
-CMake Error at CMakeLists.txt:12 (add_executable):
-  No SOURCES given to target: Pick_a_Number
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Generating done
+-- Build files have been written to: D:/Users/mprindlisbacher/CLionProjects/Rindlisbacher_cs201/cmake-build-debug
