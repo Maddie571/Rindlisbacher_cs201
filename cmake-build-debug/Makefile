@@ -154,6 +154,19 @@ Homework0/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework0.dir\build.make CMakeFiles/Homework0.dir/build
 .PHONY : Homework0/fast
 
+#=============================================================================
+# Target rules for targets named PickANumber
+
+# Build rule for target.
+PickANumber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PickANumber
+.PHONY : PickANumber
+
+# fast build rule for target.
+PickANumber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PickANumber.dir\build.make CMakeFiles/PickANumber.dir/build
+.PHONY : PickANumber/fast
+
 Hello_World.obj: Hello_World.cpp.obj
 .PHONY : Hello_World.obj
 
@@ -205,6 +218,30 @@ Homework0.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework0.dir\build.make CMakeFiles/Homework0.dir/Homework0.cpp.s
 .PHONY : Homework0.cpp.s
 
+PickANumber.obj: PickANumber.cpp.obj
+.PHONY : PickANumber.obj
+
+# target to build an object file
+PickANumber.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PickANumber.dir\build.make CMakeFiles/PickANumber.dir/PickANumber.cpp.obj
+.PHONY : PickANumber.cpp.obj
+
+PickANumber.i: PickANumber.cpp.i
+.PHONY : PickANumber.i
+
+# target to preprocess a source file
+PickANumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PickANumber.dir\build.make CMakeFiles/PickANumber.dir/PickANumber.cpp.i
+.PHONY : PickANumber.cpp.i
+
+PickANumber.s: PickANumber.cpp.s
+.PHONY : PickANumber.s
+
+# target to generate assembly for a file
+PickANumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PickANumber.dir\build.make CMakeFiles/PickANumber.dir/PickANumber.cpp.s
+.PHONY : PickANumber.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -215,6 +252,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Hello_World
 	@echo ... Homework0
+	@echo ... PickANumber
 	@echo ... Rindlisbacher_cs201
 	@echo ... Hello_World.obj
 	@echo ... Hello_World.i
@@ -222,6 +260,9 @@ help:
 	@echo ... Homework0.obj
 	@echo ... Homework0.i
 	@echo ... Homework0.s
+	@echo ... PickANumber.obj
+	@echo ... PickANumber.i
+	@echo ... PickANumber.s
 .PHONY : help
 
 

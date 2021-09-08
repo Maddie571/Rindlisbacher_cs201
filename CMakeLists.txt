@@ -8,3 +8,4 @@ add_executable(Rindlisbacher_cs201
 
 add_executable(Hello_World Hello_World.cpp)
 add_executable(Homework0 Homework0.cpp)
+add_executable(PickANumber PickANumber.cpp)
