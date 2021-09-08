@@ -168,6 +168,19 @@ PickANumber/fast:
 .PHONY : PickANumber/fast
 
 #=============================================================================
+# Target rules for targets named Fizz
+
+# Build rule for target.
+Fizz: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Fizz
+.PHONY : Fizz
+
+# fast build rule for target.
+Fizz/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fizz.dir\build.make CMakeFiles/Fizz.dir/build
+.PHONY : Fizz/fast
+
+#=============================================================================
 # Target rules for targets named BoxesBoxesBoxes
 
 # Build rule for target.
@@ -209,7 +222,7 @@ Fizz.obj: Fizz.cpp.obj
 
 # target to build an object file
 Fizz.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make CMakeFiles/BoxesBoxesBoxes.dir/Fizz.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fizz.dir\build.make CMakeFiles/Fizz.dir/Fizz.cpp.obj
 .PHONY : Fizz.cpp.obj
 
 Fizz.i: Fizz.cpp.i
@@ -217,7 +230,7 @@ Fizz.i: Fizz.cpp.i
 
 # target to preprocess a source file
 Fizz.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make CMakeFiles/BoxesBoxesBoxes.dir/Fizz.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fizz.dir\build.make CMakeFiles/Fizz.dir/Fizz.cpp.i
 .PHONY : Fizz.cpp.i
 
 Fizz.s: Fizz.cpp.s
@@ -225,7 +238,7 @@ Fizz.s: Fizz.cpp.s
 
 # target to generate assembly for a file
 Fizz.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make CMakeFiles/BoxesBoxesBoxes.dir/Fizz.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fizz.dir\build.make CMakeFiles/Fizz.dir/Fizz.cpp.s
 .PHONY : Fizz.cpp.s
 
 Hello_World.obj: Hello_World.cpp.obj
@@ -312,6 +325,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... BoxesBoxesBoxes
+	@echo ... Fizz
 	@echo ... Hello_World
 	@echo ... Homework0
 	@echo ... PickANumber

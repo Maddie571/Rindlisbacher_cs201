@@ -9,5 +9,5 @@ add_executable(Rindlisbacher_cs201
 add_executable(Hello_World Hello_World.cpp)
 add_executable(Homework0 Homework0.cpp)
 add_executable(PickANumber PickANumber.cpp)
-add_executable(BoxesBoxesBoxes BoxesBoxesBoxes.cpp Fizz.cpp)
+add_executable(BoxesBoxesBoxes BoxesBoxesBoxes.cpp)
 add_executable(Fizz Fizz.cpp)
