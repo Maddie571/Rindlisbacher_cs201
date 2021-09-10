@@ -3,6 +3,7 @@ C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/ed
 C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/Hello_World.dir
 C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/Homework0.dir
 C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/PickANumber.dir
-C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/Fizz.dir
 C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/BoxesBoxesBoxes.dir
+C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/Fizz.dir
+C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/Switches.dir
 C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/rebuild_cache.dir

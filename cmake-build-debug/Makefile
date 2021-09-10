@@ -158,6 +158,19 @@ PickANumber\fast:
 .PHONY : PickANumber\fast
 
 #=============================================================================
+# Target rules for targets named BoxesBoxesBoxes
+
+# Build rule for target.
+BoxesBoxesBoxes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) BoxesBoxesBoxes
+.PHONY : BoxesBoxesBoxes
+
+# fast build rule for target.
+BoxesBoxesBoxes\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BoxesBoxesBoxes.dir\build
+.PHONY : BoxesBoxesBoxes\fast
+
+#=============================================================================
 # Target rules for targets named Fizz
 
 # Build rule for target.
@@ -171,17 +184,17 @@ Fizz\fast:
 .PHONY : Fizz\fast
 
 #=============================================================================
-# Target rules for targets named BoxesBoxesBoxes
+# Target rules for targets named Switches
 
 # Build rule for target.
-BoxesBoxesBoxes: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) BoxesBoxesBoxes
-.PHONY : BoxesBoxesBoxes
+Switches: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Switches
+.PHONY : Switches
 
 # fast build rule for target.
-BoxesBoxesBoxes\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BoxesBoxesBoxes.dir\build
-.PHONY : BoxesBoxesBoxes\fast
+Switches\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Switches.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Switches.dir\build
+.PHONY : Switches\fast
 
 BoxesBoxesBoxes.obj: BoxesBoxesBoxes.cpp.obj
 .PHONY : BoxesBoxesBoxes.obj
@@ -311,7 +324,7 @@ Switches.obj: Switches.cpp.obj
 
 # target to build an object file
 Switches.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BoxesBoxesBoxes.dir\Switches.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Switches.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Switches.dir\Switches.cpp.obj
 .PHONY : Switches.cpp.obj
 
 Switches.i: Switches.cpp.i
@@ -319,7 +332,7 @@ Switches.i: Switches.cpp.i
 
 # target to preprocess a source file
 Switches.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BoxesBoxesBoxes.dir\Switches.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Switches.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Switches.dir\Switches.cpp.i
 .PHONY : Switches.cpp.i
 
 Switches.s: Switches.cpp.s
@@ -327,7 +340,7 @@ Switches.s: Switches.cpp.s
 
 # target to generate assembly for a file
 Switches.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BoxesBoxesBoxes.dir\Switches.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Switches.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Switches.dir\Switches.cpp.s
 .PHONY : Switches.cpp.s
 
 # Help Target
@@ -344,6 +357,7 @@ help:
 	@echo ... Homework0
 	@echo ... PickANumber
 	@echo ... Rindlisbacher_cs201
+	@echo ... Switches
 	@echo ... BoxesBoxesBoxes.obj
 	@echo ... BoxesBoxesBoxes.i
 	@echo ... BoxesBoxesBoxes.s

@@ -203,50 +203,6 @@
 					<DistClean command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Fizz">
-				<Option output="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/Fizz.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 Fizz"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Fizz/fast">
-				<Option output="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/Fizz.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 Fizz/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="BoxesBoxesBoxes">
 				<Option output="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/BoxesBoxesBoxes.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug"/>
@@ -291,6 +247,94 @@
 					<DistClean command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Fizz">
+				<Option output="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/Fizz.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 Fizz"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fizz/fast">
+				<Option output="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/Fizz.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 Fizz/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Switches">
+				<Option output="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/Switches.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 Switches"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Switches/fast">
+				<Option output="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/Switches.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 Switches/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug"/>
 				<Option type="4"/>
@@ -319,7 +363,7 @@
 			<Option target="PickANumber"/>
 		</Unit>
 		<Unit filename="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/Switches.cpp">
-			<Option target="BoxesBoxesBoxes"/>
+			<Option target="Switches"/>
 		</Unit>
 		<Unit filename="C:/Users/photo/CLionProjects/Rindlisbacher_cs201/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
