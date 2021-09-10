@@ -1,4 +1,13 @@
 "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" C:\Users\photo\CLionProjects\Rindlisbacher_cs201
 -- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug
+CMake Error at CMakeLists.txt:15 (add_executable):
+  Cannot find source file:
+
+    Homework1.cpp
+
+
+CMake Error at CMakeLists.txt:15 (add_executable):
+  No SOURCES given to target: Homework1
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
