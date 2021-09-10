@@ -306,6 +306,30 @@ PickANumber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PickANumber.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PickANumber.dir\PickANumber.cpp.s
 .PHONY : PickANumber.cpp.s
 
+Switches.obj: Switches.cpp.obj
+.PHONY : Switches.obj
+
+# target to build an object file
+Switches.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BoxesBoxesBoxes.dir\Switches.cpp.obj
+.PHONY : Switches.cpp.obj
+
+Switches.i: Switches.cpp.i
+.PHONY : Switches.i
+
+# target to preprocess a source file
+Switches.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BoxesBoxesBoxes.dir\Switches.cpp.i
+.PHONY : Switches.cpp.i
+
+Switches.s: Switches.cpp.s
+.PHONY : Switches.s
+
+# target to generate assembly for a file
+Switches.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BoxesBoxesBoxes.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BoxesBoxesBoxes.dir\Switches.cpp.s
+.PHONY : Switches.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -335,6 +359,9 @@ help:
 	@echo ... PickANumber.obj
 	@echo ... PickANumber.i
 	@echo ... PickANumber.s
+	@echo ... Switches.obj
+	@echo ... Switches.i
+	@echo ... Switches.s
 .PHONY : help
 
 
