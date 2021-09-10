@@ -3,11 +3,11 @@
 CMake Error at CMakeLists.txt:15 (add_executable):
   Cannot find source file:
 
-    Homework1.cpp
+    (
 
 
 CMake Error at CMakeLists.txt:15 (add_executable):
-  No SOURCES given to target: Homework1
+  No SOURCES given to target: Homework_1
 
 
 CMake Generate step failed.  Build files cannot be regenerated correctly.
