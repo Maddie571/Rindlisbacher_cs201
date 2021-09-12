@@ -158,6 +158,19 @@ PickANumber\fast:
 .PHONY : PickANumber\fast
 
 #=============================================================================
+# Target rules for targets named Homework_1_Diamond
+
+# Build rule for target.
+Homework_1_Diamond: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Homework_1_Diamond
+.PHONY : Homework_1_Diamond
+
+# fast build rule for target.
+Homework_1_Diamond\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_1_Diamond.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Homework_1_Diamond.dir\build
+.PHONY : Homework_1_Diamond\fast
+
+#=============================================================================
 # Target rules for targets named BoxesBoxesBoxes
 
 # Build rule for target.
@@ -295,6 +308,30 @@ Homework0.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework0.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Homework0.dir\Homework0.cpp.s
 .PHONY : Homework0.cpp.s
 
+Homework_1_Diamond.obj: Homework_1_Diamond.cpp.obj
+.PHONY : Homework_1_Diamond.obj
+
+# target to build an object file
+Homework_1_Diamond.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_1_Diamond.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Homework_1_Diamond.dir\Homework_1_Diamond.cpp.obj
+.PHONY : Homework_1_Diamond.cpp.obj
+
+Homework_1_Diamond.i: Homework_1_Diamond.cpp.i
+.PHONY : Homework_1_Diamond.i
+
+# target to preprocess a source file
+Homework_1_Diamond.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_1_Diamond.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Homework_1_Diamond.dir\Homework_1_Diamond.cpp.i
+.PHONY : Homework_1_Diamond.cpp.i
+
+Homework_1_Diamond.s: Homework_1_Diamond.cpp.s
+.PHONY : Homework_1_Diamond.s
+
+# target to generate assembly for a file
+Homework_1_Diamond.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_1_Diamond.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Homework_1_Diamond.dir\Homework_1_Diamond.cpp.s
+.PHONY : Homework_1_Diamond.cpp.s
+
 PickANumber.obj: PickANumber.cpp.obj
 .PHONY : PickANumber.obj
 
@@ -355,6 +392,7 @@ help:
 	@echo ... Fizz
 	@echo ... Hello_World
 	@echo ... Homework0
+	@echo ... Homework_1_Diamond
 	@echo ... PickANumber
 	@echo ... Rindlisbacher_cs201
 	@echo ... Switches
@@ -370,6 +408,9 @@ help:
 	@echo ... Homework0.obj
 	@echo ... Homework0.i
 	@echo ... Homework0.s
+	@echo ... Homework_1_Diamond.obj
+	@echo ... Homework_1_Diamond.i
+	@echo ... Homework_1_Diamond.s
 	@echo ... PickANumber.obj
 	@echo ... PickANumber.i
 	@echo ... PickANumber.s
