@@ -12,6 +12,10 @@ int main(){
     int PoundSigns = 1;
     cout << "Pick a Number:";
     cin >> Height; //get the number of lines
+    if(Height < 1){
+        cout << "Please enter a number above 0 next time";-3
+        return Height;
+    }
     for (int Line = Height; Line > 0; Line--){ //top half of diamond
         for (int Spaces = Line; Spaces > 0; Spaces--){ //the number of spaces needed is the same as the iputed number minus whatever line its currently on
             cout << " ";

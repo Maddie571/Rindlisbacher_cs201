@@ -209,6 +209,19 @@ Switches\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Switches.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Switches.dir\build
 .PHONY : Switches\fast
 
+#=============================================================================
+# Target rules for targets named Homework_1_greatest
+
+# Build rule for target.
+Homework_1_greatest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Homework_1_greatest
+.PHONY : Homework_1_greatest
+
+# fast build rule for target.
+Homework_1_greatest\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_1_greatest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Homework_1_greatest.dir\build
+.PHONY : Homework_1_greatest\fast
+
 BoxesBoxesBoxes.obj: BoxesBoxesBoxes.cpp.obj
 .PHONY : BoxesBoxesBoxes.obj
 
@@ -332,6 +345,30 @@ Homework_1_Diamond.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_1_Diamond.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Homework_1_Diamond.dir\Homework_1_Diamond.cpp.s
 .PHONY : Homework_1_Diamond.cpp.s
 
+Homework_1_greatest.obj: Homework_1_greatest.cpp.obj
+.PHONY : Homework_1_greatest.obj
+
+# target to build an object file
+Homework_1_greatest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_1_greatest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Homework_1_greatest.dir\Homework_1_greatest.cpp.obj
+.PHONY : Homework_1_greatest.cpp.obj
+
+Homework_1_greatest.i: Homework_1_greatest.cpp.i
+.PHONY : Homework_1_greatest.i
+
+# target to preprocess a source file
+Homework_1_greatest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_1_greatest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Homework_1_greatest.dir\Homework_1_greatest.cpp.i
+.PHONY : Homework_1_greatest.cpp.i
+
+Homework_1_greatest.s: Homework_1_greatest.cpp.s
+.PHONY : Homework_1_greatest.s
+
+# target to generate assembly for a file
+Homework_1_greatest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_1_greatest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Homework_1_greatest.dir\Homework_1_greatest.cpp.s
+.PHONY : Homework_1_greatest.cpp.s
+
 PickANumber.obj: PickANumber.cpp.obj
 .PHONY : PickANumber.obj
 
@@ -393,6 +430,7 @@ help:
 	@echo ... Hello_World
 	@echo ... Homework0
 	@echo ... Homework_1_Diamond
+	@echo ... Homework_1_greatest
 	@echo ... PickANumber
 	@echo ... Rindlisbacher_cs201
 	@echo ... Switches
@@ -411,6 +449,9 @@ help:
 	@echo ... Homework_1_Diamond.obj
 	@echo ... Homework_1_Diamond.i
 	@echo ... Homework_1_Diamond.s
+	@echo ... Homework_1_greatest.obj
+	@echo ... Homework_1_greatest.i
+	@echo ... Homework_1_greatest.s
 	@echo ... PickANumber.obj
 	@echo ... PickANumber.i
 	@echo ... PickANumber.s

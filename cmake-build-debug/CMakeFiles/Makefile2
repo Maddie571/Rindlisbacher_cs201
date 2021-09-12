@@ -60,6 +60,7 @@ all: CMakeFiles\Homework_1_Diamond.dir\all
 all: CMakeFiles\BoxesBoxesBoxes.dir\all
 all: CMakeFiles\Fizz.dir\all
 all: CMakeFiles\Switches.dir\all
+all: CMakeFiles\Homework_1_greatest.dir\all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -75,6 +76,7 @@ clean: CMakeFiles\Homework_1_Diamond.dir\clean
 clean: CMakeFiles\BoxesBoxesBoxes.dir\clean
 clean: CMakeFiles\Fizz.dir\clean
 clean: CMakeFiles\Switches.dir\clean
+clean: CMakeFiles\Homework_1_greatest.dir\clean
 .PHONY : clean
 
 #=============================================================================
@@ -84,7 +86,7 @@ clean: CMakeFiles\Switches.dir\clean
 CMakeFiles\Rindlisbacher_cs201.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rindlisbacher_cs201.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Rindlisbacher_cs201.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rindlisbacher_cs201.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Rindlisbacher_cs201.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target Rindlisbacher_cs201"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target Rindlisbacher_cs201"
 .PHONY : CMakeFiles\Rindlisbacher_cs201.dir\all
 
 # Build rule for subdir invocation for target.
@@ -162,7 +164,7 @@ CMakeFiles\Homework0.dir\clean:
 CMakeFiles\PickANumber.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PickANumber.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PickANumber.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PickANumber.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PickANumber.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target PickANumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target PickANumber"
 .PHONY : CMakeFiles\PickANumber.dir\all
 
 # Build rule for subdir invocation for target.
@@ -266,7 +268,7 @@ CMakeFiles\Fizz.dir\clean:
 CMakeFiles\Switches.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Switches.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Switches.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Switches.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Switches.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target Switches"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target Switches"
 .PHONY : CMakeFiles\Switches.dir\all
 
 # Build rule for subdir invocation for target.
@@ -284,6 +286,32 @@ Switches: CMakeFiles\Switches.dir\rule
 CMakeFiles\Switches.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Switches.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Switches.dir\clean
 .PHONY : CMakeFiles\Switches.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Homework_1_greatest.dir
+
+# All Build rule for target.
+CMakeFiles\Homework_1_greatest.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_1_greatest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Homework_1_greatest.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_1_greatest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Homework_1_greatest.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Homework_1_greatest"
+.PHONY : CMakeFiles\Homework_1_greatest.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\Homework_1_greatest.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Homework_1_greatest.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\Homework_1_greatest.dir\rule
+
+# Convenience name for target.
+Homework_1_greatest: CMakeFiles\Homework_1_greatest.dir\rule
+.PHONY : Homework_1_greatest
+
+# clean rule for target.
+CMakeFiles\Homework_1_greatest.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_1_greatest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Homework_1_greatest.dir\clean
+.PHONY : CMakeFiles\Homework_1_greatest.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
