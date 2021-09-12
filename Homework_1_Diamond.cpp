@@ -13,7 +13,7 @@ int main(){
     cout << "Pick a Number:";
     cin >> Height; //get the number of lines
     for (int Line = Height; Line > 0; Line--){ //top half of diamond
-        for (int Spaces = Line; Spaces >= 0; Spaces--){ //the number of spaces needed is the same as the iputed number minus whatever line its currently on
+        for (int Spaces = Line; Spaces > 0; Spaces--){ //the number of spaces needed is the same as the iputed number minus whatever line its currently on
             cout << " ";
         }
         for (int i = 0; i < PoundSigns; i++) {
@@ -23,6 +23,25 @@ int main(){
         cout << endl;
     }
 
+    int SpaceStopper = 1;
+    if (Height % 2 == 1){
+        PoundSigns -= 4; //the center line is only repeated if the inputted number is even, and need to account for the 2 extra added
+        SpaceStopper = 0; //to fix the issue where the bottom halfs spacing is either off for even or odd diamonds
+    } else {
+        PoundSigns -= 2;
+    }
+
+//start bottom half
+    for(int j = 1; j <= Height; j++){ //basically copying the first bit, but going the opposite direction
+        for (int Spaces = j; Spaces >= SpaceStopper; Spaces--){
+            cout << " ";
+        }
+        for (int k = 0; k < PoundSigns; k++) {
+            cout << "#";
+        }
+        PoundSigns -= 2;
+        cout << endl;
+    }
 
     return 2;
 }
