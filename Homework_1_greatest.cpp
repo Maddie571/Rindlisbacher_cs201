@@ -11,18 +11,18 @@ using std::endl;
 
 int main(){
 int greatest = 0;
-int count = 0;
+int count = 0; //checks to make sure at least 1 legal number was input
 int n = 1;
 cout << "begin entering numbers, enter 0 to stop \n I'll return your highest input";
 while (n > 0){
     cin >> n;
-    if (n > greatest){
+    if (n > greatest){ //checks if current input is greater than previous record
         greatest = n;
     }
     count ++;
     cout << "Next Number:";
 }
-if (count > 0) {
+if (count > 0) { //making sure there was a legal input
     return greatest;
 } else {
     cout << "please input at least one number greater than 0";
