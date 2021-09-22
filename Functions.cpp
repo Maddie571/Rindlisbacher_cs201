@@ -20,9 +20,16 @@ int main(){
 }
 
 void DoThing(string Word) {
-    cout << "Your word is:";
+    cout << "Your word is: ";
     cout << Word << endl;
     cout << Word.size();
-    cout << " Letters long!";
+    for (int i = 1; i <= Word.size(); i++){
+        cout << "#";
+    }
+    cout << "\nLetters long!";
+    cout << "\nAlso, your word backwards is: ";
+    for (int j = Word.size() - 1; j >= 0; j--){
+        cout << Word[j];
+    }
 }
 
