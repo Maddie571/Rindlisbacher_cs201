@@ -222,6 +222,19 @@ Homework_1_greatest\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_1_greatest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Homework_1_greatest.dir\build
 .PHONY : Homework_1_greatest\fast
 
+#=============================================================================
+# Target rules for targets named Functions
+
+# Build rule for target.
+Functions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Functions
+.PHONY : Functions
+
+# fast build rule for target.
+Functions\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Functions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Functions.dir\build
+.PHONY : Functions\fast
+
 BoxesBoxesBoxes.obj: BoxesBoxesBoxes.cpp.obj
 .PHONY : BoxesBoxesBoxes.obj
 
@@ -269,6 +282,30 @@ Fizz.s: Fizz.cpp.s
 Fizz.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fizz.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Fizz.dir\Fizz.cpp.s
 .PHONY : Fizz.cpp.s
+
+Functions.obj: Functions.cpp.obj
+.PHONY : Functions.obj
+
+# target to build an object file
+Functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Functions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Functions.dir\Functions.cpp.obj
+.PHONY : Functions.cpp.obj
+
+Functions.i: Functions.cpp.i
+.PHONY : Functions.i
+
+# target to preprocess a source file
+Functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Functions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Functions.dir\Functions.cpp.i
+.PHONY : Functions.cpp.i
+
+Functions.s: Functions.cpp.s
+.PHONY : Functions.s
+
+# target to generate assembly for a file
+Functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Functions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Functions.dir\Functions.cpp.s
+.PHONY : Functions.cpp.s
 
 Hello_World.obj: Hello_World.cpp.obj
 .PHONY : Hello_World.obj
@@ -427,6 +464,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... BoxesBoxesBoxes
 	@echo ... Fizz
+	@echo ... Functions
 	@echo ... Hello_World
 	@echo ... Homework0
 	@echo ... Homework_1_Diamond
@@ -440,6 +478,9 @@ help:
 	@echo ... Fizz.obj
 	@echo ... Fizz.i
 	@echo ... Fizz.s
+	@echo ... Functions.obj
+	@echo ... Functions.i
+	@echo ... Functions.s
 	@echo ... Hello_World.obj
 	@echo ... Hello_World.i
 	@echo ... Hello_World.s
