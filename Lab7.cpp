@@ -11,6 +11,10 @@ using std::endl;
 int main(){
     cout << "please type an integer:";
     int x = getInt();
-    return x;
+    cout << "now your second number:";
+    int y = getInt();
+    cout << "and your final number:";
+    int z = getInt();
+    return x*y*z;
 }
 
