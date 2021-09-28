@@ -15,6 +15,11 @@ int main(){
     int y = getInt();
     cout << "and your final number:";
     int z = getInt();
+    putInt(x, 0);
+    cout << "\n";
+    putInt(y,0);
+    cout << "\n";
+    putInt(z, 0);
     return x*y*z;
 }
 
