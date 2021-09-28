@@ -15,3 +15,6 @@ add_executable(Switches Switches.cpp)
 add_executable(Homework_1_Diamond Homework_1_Diamond.cpp)
 add_executable(Homework_1_greatest Homework_1_greatest.cpp)
 add_executable(Functions Functions.cpp)
+add_executable(intio intio.hpp)
+
+add_executable(Lab7 Lab7.cpp)

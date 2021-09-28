@@ -235,6 +235,32 @@ Functions\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Functions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Functions.dir\build
 .PHONY : Functions\fast
 
+#=============================================================================
+# Target rules for targets named intio
+
+# Build rule for target.
+intio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) intio
+.PHONY : intio
+
+# fast build rule for target.
+intio\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\intio.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\intio.dir\build
+.PHONY : intio\fast
+
+#=============================================================================
+# Target rules for targets named Lab7
+
+# Build rule for target.
+Lab7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Lab7
+.PHONY : Lab7
+
+# fast build rule for target.
+Lab7\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab7.dir\build
+.PHONY : Lab7\fast
+
 BoxesBoxesBoxes.obj: BoxesBoxesBoxes.cpp.obj
 .PHONY : BoxesBoxesBoxes.obj
 
@@ -406,6 +432,30 @@ Homework_1_greatest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_1_greatest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Homework_1_greatest.dir\Homework_1_greatest.cpp.s
 .PHONY : Homework_1_greatest.cpp.s
 
+Lab7.obj: Lab7.cpp.obj
+.PHONY : Lab7.obj
+
+# target to build an object file
+Lab7.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab7.dir\Lab7.cpp.obj
+.PHONY : Lab7.cpp.obj
+
+Lab7.i: Lab7.cpp.i
+.PHONY : Lab7.i
+
+# target to preprocess a source file
+Lab7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab7.dir\Lab7.cpp.i
+.PHONY : Lab7.cpp.i
+
+Lab7.s: Lab7.cpp.s
+.PHONY : Lab7.s
+
+# target to generate assembly for a file
+Lab7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab7.dir\Lab7.cpp.s
+.PHONY : Lab7.cpp.s
+
 PickANumber.obj: PickANumber.cpp.obj
 .PHONY : PickANumber.obj
 
@@ -469,9 +519,11 @@ help:
 	@echo ... Homework0
 	@echo ... Homework_1_Diamond
 	@echo ... Homework_1_greatest
+	@echo ... Lab7
 	@echo ... PickANumber
 	@echo ... Rindlisbacher_cs201
 	@echo ... Switches
+	@echo ... intio
 	@echo ... BoxesBoxesBoxes.obj
 	@echo ... BoxesBoxesBoxes.i
 	@echo ... BoxesBoxesBoxes.s
@@ -493,6 +545,9 @@ help:
 	@echo ... Homework_1_greatest.obj
 	@echo ... Homework_1_greatest.i
 	@echo ... Homework_1_greatest.s
+	@echo ... Lab7.obj
+	@echo ... Lab7.i
+	@echo ... Lab7.s
 	@echo ... PickANumber.obj
 	@echo ... PickANumber.i
 	@echo ... PickANumber.s

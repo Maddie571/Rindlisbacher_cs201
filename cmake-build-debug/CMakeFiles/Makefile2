@@ -62,6 +62,8 @@ all: CMakeFiles\Fizz.dir\all
 all: CMakeFiles\Switches.dir\all
 all: CMakeFiles\Homework_1_greatest.dir\all
 all: CMakeFiles\Functions.dir\all
+all: CMakeFiles\intio.dir\all
+all: CMakeFiles\Lab7.dir\all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -79,6 +81,8 @@ clean: CMakeFiles\Fizz.dir\clean
 clean: CMakeFiles\Switches.dir\clean
 clean: CMakeFiles\Homework_1_greatest.dir\clean
 clean: CMakeFiles\Functions.dir\clean
+clean: CMakeFiles\intio.dir\clean
+clean: CMakeFiles\Lab7.dir\clean
 .PHONY : clean
 
 #=============================================================================
@@ -88,7 +92,7 @@ clean: CMakeFiles\Functions.dir\clean
 CMakeFiles\Rindlisbacher_cs201.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rindlisbacher_cs201.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Rindlisbacher_cs201.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rindlisbacher_cs201.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Rindlisbacher_cs201.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target Rindlisbacher_cs201"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target Rindlisbacher_cs201"
 .PHONY : CMakeFiles\Rindlisbacher_cs201.dir\all
 
 # Build rule for subdir invocation for target.
@@ -166,7 +170,7 @@ CMakeFiles\Homework0.dir\clean:
 CMakeFiles\PickANumber.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PickANumber.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PickANumber.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PickANumber.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PickANumber.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target PickANumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target PickANumber"
 .PHONY : CMakeFiles\PickANumber.dir\all
 
 # Build rule for subdir invocation for target.
@@ -270,7 +274,7 @@ CMakeFiles\Fizz.dir\clean:
 CMakeFiles\Switches.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Switches.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Switches.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Switches.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Switches.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target Switches"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target Switches"
 .PHONY : CMakeFiles\Switches.dir\all
 
 # Build rule for subdir invocation for target.
@@ -340,6 +344,58 @@ Functions: CMakeFiles\Functions.dir\rule
 CMakeFiles\Functions.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Functions.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Functions.dir\clean
 .PHONY : CMakeFiles\Functions.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/intio.dir
+
+# All Build rule for target.
+CMakeFiles\intio.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\intio.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\intio.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\intio.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\intio.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num= "Built target intio"
+.PHONY : CMakeFiles\intio.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\intio.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\intio.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\intio.dir\rule
+
+# Convenience name for target.
+intio: CMakeFiles\intio.dir\rule
+.PHONY : intio
+
+# clean rule for target.
+CMakeFiles\intio.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\intio.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\intio.dir\clean
+.PHONY : CMakeFiles\intio.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Lab7.dir
+
+# All Build rule for target.
+CMakeFiles\Lab7.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab7.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab7.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target Lab7"
+.PHONY : CMakeFiles\Lab7.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\Lab7.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Lab7.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\Lab7.dir\rule
+
+# Convenience name for target.
+Lab7: CMakeFiles\Lab7.dir\rule
+.PHONY : Lab7
+
+# clean rule for target.
+CMakeFiles\Lab7.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab7.dir\clean
+.PHONY : CMakeFiles\Lab7.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
