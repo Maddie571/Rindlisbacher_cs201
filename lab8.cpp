@@ -3,6 +3,7 @@
 //
 
 #include "lab8.hpp"
+#include "intio.cpp"
 #include <iostream>
 using std::cout;
 using std::cin;
@@ -11,8 +12,7 @@ using std::endl;
 int doInput(){
 return getInt();
 }
-int compute(){
-int x = getInt();
+int compute(int x){
 return x*x;
 }
 

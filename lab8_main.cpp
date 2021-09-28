@@ -12,7 +12,7 @@
 // For CS 201 Spring 2018
 // Main program for 2/5 Lab
 
-#include "lab8.hpp"
+#include "lab8.cpp"
 // For doInput, compute
 #include <iostream>
 using std::cout;

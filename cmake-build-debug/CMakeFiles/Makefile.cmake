@@ -57,6 +57,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Switches.dir/DependInfo.cmake"
   "CMakeFiles/Homework_1_greatest.dir/DependInfo.cmake"
   "CMakeFiles/Functions.dir/DependInfo.cmake"
-  "CMakeFiles/intio.dir/DependInfo.cmake"
   "CMakeFiles/Lab7.dir/DependInfo.cmake"
+  "CMakeFiles/lab8_main.dir/DependInfo.cmake"
   )

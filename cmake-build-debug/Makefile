@@ -236,19 +236,6 @@ Functions\fast:
 .PHONY : Functions\fast
 
 #=============================================================================
-# Target rules for targets named intio
-
-# Build rule for target.
-intio: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) intio
-.PHONY : intio
-
-# fast build rule for target.
-intio\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\intio.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\intio.dir\build
-.PHONY : intio\fast
-
-#=============================================================================
 # Target rules for targets named Lab7
 
 # Build rule for target.
@@ -260,6 +247,19 @@ Lab7: cmake_check_build_system
 Lab7\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab7.dir\build
 .PHONY : Lab7\fast
+
+#=============================================================================
+# Target rules for targets named lab8_main
+
+# Build rule for target.
+lab8_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) lab8_main
+.PHONY : lab8_main
+
+# fast build rule for target.
+lab8_main\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab8_main.dir\build
+.PHONY : lab8_main\fast
 
 BoxesBoxesBoxes.obj: BoxesBoxesBoxes.cpp.obj
 .PHONY : BoxesBoxesBoxes.obj
@@ -504,6 +504,30 @@ Switches.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Switches.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Switches.dir\Switches.cpp.s
 .PHONY : Switches.cpp.s
 
+lab8_main.obj: lab8_main.cpp.obj
+.PHONY : lab8_main.obj
+
+# target to build an object file
+lab8_main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab8_main.dir\lab8_main.cpp.obj
+.PHONY : lab8_main.cpp.obj
+
+lab8_main.i: lab8_main.cpp.i
+.PHONY : lab8_main.i
+
+# target to preprocess a source file
+lab8_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab8_main.dir\lab8_main.cpp.i
+.PHONY : lab8_main.cpp.i
+
+lab8_main.s: lab8_main.cpp.s
+.PHONY : lab8_main.s
+
+# target to generate assembly for a file
+lab8_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab8_main.dir\lab8_main.cpp.s
+.PHONY : lab8_main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -523,7 +547,7 @@ help:
 	@echo ... PickANumber
 	@echo ... Rindlisbacher_cs201
 	@echo ... Switches
-	@echo ... intio
+	@echo ... lab8_main
 	@echo ... BoxesBoxesBoxes.obj
 	@echo ... BoxesBoxesBoxes.i
 	@echo ... BoxesBoxesBoxes.s
@@ -554,6 +578,9 @@ help:
 	@echo ... Switches.obj
 	@echo ... Switches.i
 	@echo ... Switches.s
+	@echo ... lab8_main.obj
+	@echo ... lab8_main.i
+	@echo ... lab8_main.s
 .PHONY : help
 
 
