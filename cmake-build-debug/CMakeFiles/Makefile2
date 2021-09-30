@@ -52,6 +52,7 @@ CMAKE_BINARY_DIR = C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles\ModifyStringMain.dir\all
 all: CMakeFiles\Rindlisbacher_cs201.dir\all
 all: CMakeFiles\Hello_World.dir\all
 all: CMakeFiles\Homework0.dir\all
@@ -64,6 +65,7 @@ all: CMakeFiles\Homework_1_greatest.dir\all
 all: CMakeFiles\Functions.dir\all
 all: CMakeFiles\Lab7.dir\all
 all: CMakeFiles\lab8_main.dir\all
+all: CMakeFiles\modifyString.dir\all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,6 +73,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles\ModifyStringMain.dir\clean
 clean: CMakeFiles\Rindlisbacher_cs201.dir\clean
 clean: CMakeFiles\Hello_World.dir\clean
 clean: CMakeFiles\Homework0.dir\clean
@@ -83,7 +86,34 @@ clean: CMakeFiles\Homework_1_greatest.dir\clean
 clean: CMakeFiles\Functions.dir\clean
 clean: CMakeFiles\Lab7.dir\clean
 clean: CMakeFiles\lab8_main.dir\clean
+clean: CMakeFiles\modifyString.dir\clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ModifyStringMain.dir
+
+# All Build rule for target.
+CMakeFiles\ModifyStringMain.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ModifyStringMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ModifyStringMain.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ModifyStringMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ModifyStringMain.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target ModifyStringMain"
+.PHONY : CMakeFiles\ModifyStringMain.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\ModifyStringMain.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\ModifyStringMain.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\ModifyStringMain.dir\rule
+
+# Convenience name for target.
+ModifyStringMain: CMakeFiles\ModifyStringMain.dir\rule
+.PHONY : ModifyStringMain
+
+# clean rule for target.
+CMakeFiles\ModifyStringMain.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ModifyStringMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ModifyStringMain.dir\clean
+.PHONY : CMakeFiles\ModifyStringMain.dir\clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Rindlisbacher_cs201.dir
@@ -92,7 +122,7 @@ clean: CMakeFiles\lab8_main.dir\clean
 CMakeFiles\Rindlisbacher_cs201.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rindlisbacher_cs201.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Rindlisbacher_cs201.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Rindlisbacher_cs201.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Rindlisbacher_cs201.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target Rindlisbacher_cs201"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target Rindlisbacher_cs201"
 .PHONY : CMakeFiles\Rindlisbacher_cs201.dir\all
 
 # Build rule for subdir invocation for target.
@@ -170,7 +200,7 @@ CMakeFiles\Homework0.dir\clean:
 CMakeFiles\PickANumber.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PickANumber.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PickANumber.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PickANumber.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PickANumber.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target PickANumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target PickANumber"
 .PHONY : CMakeFiles\PickANumber.dir\all
 
 # Build rule for subdir invocation for target.
@@ -274,7 +304,7 @@ CMakeFiles\Fizz.dir\clean:
 CMakeFiles\Switches.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Switches.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Switches.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Switches.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Switches.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target Switches"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target Switches"
 .PHONY : CMakeFiles\Switches.dir\all
 
 # Build rule for subdir invocation for target.
@@ -378,7 +408,7 @@ CMakeFiles\Lab7.dir\clean:
 CMakeFiles\lab8_main.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab8_main.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab8_main.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target lab8_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target lab8_main"
 .PHONY : CMakeFiles\lab8_main.dir\all
 
 # Build rule for subdir invocation for target.
@@ -396,6 +426,32 @@ lab8_main: CMakeFiles\lab8_main.dir\rule
 CMakeFiles\lab8_main.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab8_main.dir\clean
 .PHONY : CMakeFiles\lab8_main.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/modifyString.dir
+
+# All Build rule for target.
+CMakeFiles\modifyString.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\modifyString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\modifyString.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\modifyString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\modifyString.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target modifyString"
+.PHONY : CMakeFiles\modifyString.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\modifyString.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\modifyString.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\modifyString.dir\rule
+
+# Convenience name for target.
+modifyString: CMakeFiles\modifyString.dir\rule
+.PHONY : modifyString
+
+# clean rule for target.
+CMakeFiles\modifyString.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\modifyString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\modifyString.dir\clean
+.PHONY : CMakeFiles\modifyString.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

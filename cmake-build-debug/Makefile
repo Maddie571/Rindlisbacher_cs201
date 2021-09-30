@@ -106,6 +106,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ModifyStringMain
+
+# Build rule for target.
+ModifyStringMain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ModifyStringMain
+.PHONY : ModifyStringMain
+
+# fast build rule for target.
+ModifyStringMain\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ModifyStringMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ModifyStringMain.dir\build
+.PHONY : ModifyStringMain\fast
+
+#=============================================================================
 # Target rules for targets named Rindlisbacher_cs201
 
 # Build rule for target.
@@ -260,6 +273,19 @@ lab8_main: cmake_check_build_system
 lab8_main\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab8_main.dir\build
 .PHONY : lab8_main\fast
+
+#=============================================================================
+# Target rules for targets named modifyString
+
+# Build rule for target.
+modifyString: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) modifyString
+.PHONY : modifyString
+
+# fast build rule for target.
+modifyString\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\modifyString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\modifyString.dir\build
+.PHONY : modifyString\fast
 
 BoxesBoxesBoxes.obj: BoxesBoxesBoxes.cpp.obj
 .PHONY : BoxesBoxesBoxes.obj
@@ -456,6 +482,30 @@ Lab7.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab7.dir\Lab7.cpp.s
 .PHONY : Lab7.cpp.s
 
+ModifyStringMain.obj: ModifyStringMain.cpp.obj
+.PHONY : ModifyStringMain.obj
+
+# target to build an object file
+ModifyStringMain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ModifyStringMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ModifyStringMain.dir\ModifyStringMain.cpp.obj
+.PHONY : ModifyStringMain.cpp.obj
+
+ModifyStringMain.i: ModifyStringMain.cpp.i
+.PHONY : ModifyStringMain.i
+
+# target to preprocess a source file
+ModifyStringMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ModifyStringMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ModifyStringMain.dir\ModifyStringMain.cpp.i
+.PHONY : ModifyStringMain.cpp.i
+
+ModifyStringMain.s: ModifyStringMain.cpp.s
+.PHONY : ModifyStringMain.s
+
+# target to generate assembly for a file
+ModifyStringMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ModifyStringMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ModifyStringMain.dir\ModifyStringMain.cpp.s
+.PHONY : ModifyStringMain.cpp.s
+
 PickANumber.obj: PickANumber.cpp.obj
 .PHONY : PickANumber.obj
 
@@ -528,6 +578,30 @@ lab8_main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab8_main.dir\lab8_main.cpp.s
 .PHONY : lab8_main.cpp.s
 
+modifyString.obj: modifyString.cpp.obj
+.PHONY : modifyString.obj
+
+# target to build an object file
+modifyString.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\modifyString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\modifyString.dir\modifyString.cpp.obj
+.PHONY : modifyString.cpp.obj
+
+modifyString.i: modifyString.cpp.i
+.PHONY : modifyString.i
+
+# target to preprocess a source file
+modifyString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\modifyString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\modifyString.dir\modifyString.cpp.i
+.PHONY : modifyString.cpp.i
+
+modifyString.s: modifyString.cpp.s
+.PHONY : modifyString.s
+
+# target to generate assembly for a file
+modifyString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\modifyString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\modifyString.dir\modifyString.cpp.s
+.PHONY : modifyString.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -544,10 +618,12 @@ help:
 	@echo ... Homework_1_Diamond
 	@echo ... Homework_1_greatest
 	@echo ... Lab7
+	@echo ... ModifyStringMain
 	@echo ... PickANumber
 	@echo ... Rindlisbacher_cs201
 	@echo ... Switches
 	@echo ... lab8_main
+	@echo ... modifyString
 	@echo ... BoxesBoxesBoxes.obj
 	@echo ... BoxesBoxesBoxes.i
 	@echo ... BoxesBoxesBoxes.s
@@ -572,6 +648,9 @@ help:
 	@echo ... Lab7.obj
 	@echo ... Lab7.i
 	@echo ... Lab7.s
+	@echo ... ModifyStringMain.obj
+	@echo ... ModifyStringMain.i
+	@echo ... ModifyStringMain.s
 	@echo ... PickANumber.obj
 	@echo ... PickANumber.i
 	@echo ... PickANumber.s
@@ -581,6 +660,9 @@ help:
 	@echo ... lab8_main.obj
 	@echo ... lab8_main.i
 	@echo ... lab8_main.s
+	@echo ... modifyString.obj
+	@echo ... modifyString.i
+	@echo ... modifyString.s
 .PHONY : help
 
 

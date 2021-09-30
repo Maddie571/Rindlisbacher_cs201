@@ -47,6 +47,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/ModifyStringMain.dir/DependInfo.cmake"
   "CMakeFiles/Rindlisbacher_cs201.dir/DependInfo.cmake"
   "CMakeFiles/Hello_World.dir/DependInfo.cmake"
   "CMakeFiles/Homework0.dir/DependInfo.cmake"
@@ -59,4 +60,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Functions.dir/DependInfo.cmake"
   "CMakeFiles/Lab7.dir/DependInfo.cmake"
   "CMakeFiles/lab8_main.dir/DependInfo.cmake"
+  "CMakeFiles/modifyString.dir/DependInfo.cmake"
   )
