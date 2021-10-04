@@ -210,6 +210,19 @@ Fizz\fast:
 .PHONY : Fizz\fast
 
 #=============================================================================
+# Target rules for targets named Lab10
+
+# Build rule for target.
+Lab10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Lab10
+.PHONY : Lab10
+
+# fast build rule for target.
+Lab10\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab10.dir\build
+.PHONY : Lab10\fast
+
+#=============================================================================
 # Target rules for targets named Switches
 
 # Build rule for target.
@@ -458,6 +471,30 @@ Homework_1_greatest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Homework_1_greatest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Homework_1_greatest.dir\Homework_1_greatest.cpp.s
 .PHONY : Homework_1_greatest.cpp.s
 
+Lab10.obj: Lab10.cpp.obj
+.PHONY : Lab10.obj
+
+# target to build an object file
+Lab10.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab10.dir\Lab10.cpp.obj
+.PHONY : Lab10.cpp.obj
+
+Lab10.i: Lab10.cpp.i
+.PHONY : Lab10.i
+
+# target to preprocess a source file
+Lab10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab10.dir\Lab10.cpp.i
+.PHONY : Lab10.cpp.i
+
+Lab10.s: Lab10.cpp.s
+.PHONY : Lab10.s
+
+# target to generate assembly for a file
+Lab10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab10.dir\Lab10.cpp.s
+.PHONY : Lab10.cpp.s
+
 Lab7.obj: Lab7.cpp.obj
 .PHONY : Lab7.obj
 
@@ -617,6 +654,7 @@ help:
 	@echo ... Homework0
 	@echo ... Homework_1_Diamond
 	@echo ... Homework_1_greatest
+	@echo ... Lab10
 	@echo ... Lab7
 	@echo ... ModifyStringMain
 	@echo ... PickANumber
@@ -645,6 +683,9 @@ help:
 	@echo ... Homework_1_greatest.obj
 	@echo ... Homework_1_greatest.i
 	@echo ... Homework_1_greatest.s
+	@echo ... Lab10.obj
+	@echo ... Lab10.i
+	@echo ... Lab10.s
 	@echo ... Lab7.obj
 	@echo ... Lab7.i
 	@echo ... Lab7.s

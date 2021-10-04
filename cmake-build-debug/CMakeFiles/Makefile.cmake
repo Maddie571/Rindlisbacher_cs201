@@ -55,6 +55,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Homework_1_Diamond.dir/DependInfo.cmake"
   "CMakeFiles/BoxesBoxesBoxes.dir/DependInfo.cmake"
   "CMakeFiles/Fizz.dir/DependInfo.cmake"
+  "CMakeFiles/Lab10.dir/DependInfo.cmake"
   "CMakeFiles/Switches.dir/DependInfo.cmake"
   "CMakeFiles/Homework_1_greatest.dir/DependInfo.cmake"
   "CMakeFiles/Functions.dir/DependInfo.cmake"
