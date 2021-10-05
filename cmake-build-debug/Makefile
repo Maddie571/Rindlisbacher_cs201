@@ -313,6 +313,19 @@ Lab11\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab11.dir\build
 .PHONY : Lab11\fast
 
+#=============================================================================
+# Target rules for targets named UserInputMain
+
+# Build rule for target.
+UserInputMain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) UserInputMain
+.PHONY : UserInputMain
+
+# fast build rule for target.
+UserInputMain\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UserInputMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UserInputMain.dir\build
+.PHONY : UserInputMain\fast
+
 BoxesBoxesBoxes.obj: BoxesBoxesBoxes.cpp.obj
 .PHONY : BoxesBoxesBoxes.obj
 
@@ -628,6 +641,30 @@ Switches.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Switches.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Switches.dir\Switches.cpp.s
 .PHONY : Switches.cpp.s
 
+UserInputMain.obj: UserInputMain.cpp.obj
+.PHONY : UserInputMain.obj
+
+# target to build an object file
+UserInputMain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UserInputMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UserInputMain.dir\UserInputMain.cpp.obj
+.PHONY : UserInputMain.cpp.obj
+
+UserInputMain.i: UserInputMain.cpp.i
+.PHONY : UserInputMain.i
+
+# target to preprocess a source file
+UserInputMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UserInputMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UserInputMain.dir\UserInputMain.cpp.i
+.PHONY : UserInputMain.cpp.i
+
+UserInputMain.s: UserInputMain.cpp.s
+.PHONY : UserInputMain.s
+
+# target to generate assembly for a file
+UserInputMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UserInputMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UserInputMain.dir\UserInputMain.cpp.s
+.PHONY : UserInputMain.cpp.s
+
 lab8_main.obj: lab8_main.cpp.obj
 .PHONY : lab8_main.obj
 
@@ -698,6 +735,7 @@ help:
 	@echo ... PickANumber
 	@echo ... Rindlisbacher_cs201
 	@echo ... Switches
+	@echo ... UserInputMain
 	@echo ... lab8_main
 	@echo ... modifyString
 	@echo ... BoxesBoxesBoxes.obj
@@ -739,6 +777,9 @@ help:
 	@echo ... Switches.obj
 	@echo ... Switches.i
 	@echo ... Switches.s
+	@echo ... UserInputMain.obj
+	@echo ... UserInputMain.i
+	@echo ... UserInputMain.s
 	@echo ... lab8_main.obj
 	@echo ... lab8_main.i
 	@echo ... lab8_main.s

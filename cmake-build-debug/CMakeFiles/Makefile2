@@ -68,6 +68,7 @@ all: CMakeFiles\Lab7.dir\all
 all: CMakeFiles\lab8_main.dir\all
 all: CMakeFiles\modifyString.dir\all
 all: CMakeFiles\Lab11.dir\all
+all: CMakeFiles\UserInputMain.dir\all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -91,6 +92,7 @@ clean: CMakeFiles\Lab7.dir\clean
 clean: CMakeFiles\lab8_main.dir\clean
 clean: CMakeFiles\modifyString.dir\clean
 clean: CMakeFiles\Lab11.dir\clean
+clean: CMakeFiles\UserInputMain.dir\clean
 .PHONY : clean
 
 #=============================================================================
@@ -438,7 +440,7 @@ CMakeFiles\Lab7.dir\clean:
 CMakeFiles\lab8_main.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab8_main.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8_main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab8_main.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target lab8_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target lab8_main"
 .PHONY : CMakeFiles\lab8_main.dir\all
 
 # Build rule for subdir invocation for target.
@@ -464,7 +466,7 @@ CMakeFiles\lab8_main.dir\clean:
 CMakeFiles\modifyString.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\modifyString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\modifyString.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\modifyString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\modifyString.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target modifyString"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target modifyString"
 .PHONY : CMakeFiles\modifyString.dir\all
 
 # Build rule for subdir invocation for target.
@@ -508,6 +510,32 @@ Lab11: CMakeFiles\Lab11.dir\rule
 CMakeFiles\Lab11.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab11.dir\clean
 .PHONY : CMakeFiles\Lab11.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/UserInputMain.dir
+
+# All Build rule for target.
+CMakeFiles\UserInputMain.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UserInputMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UserInputMain.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UserInputMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UserInputMain.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target UserInputMain"
+.PHONY : CMakeFiles\UserInputMain.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\UserInputMain.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\UserInputMain.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\UserInputMain.dir\rule
+
+# Convenience name for target.
+UserInputMain: CMakeFiles\UserInputMain.dir\rule
+.PHONY : UserInputMain
+
+# clean rule for target.
+CMakeFiles\UserInputMain.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UserInputMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UserInputMain.dir\clean
+.PHONY : CMakeFiles\UserInputMain.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

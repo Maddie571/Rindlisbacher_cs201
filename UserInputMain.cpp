@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <string>
+#include "UserInput.cpp"
 using std::cout;
 using std::endl;
 using std::cin;
@@ -13,9 +14,11 @@ int main()
 {
     string s;
     string check;
-    while (check =! "end") {
+    while (!(check == "end")) { // !(expression with ==) is how you do false in c++
         s += check;
+        s += " ";
         check = UserInput();
     }
+    cout << s;
     return 0;
 }
