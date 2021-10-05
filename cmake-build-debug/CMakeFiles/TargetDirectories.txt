@@ -13,5 +13,6 @@ C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/Fu
 C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/Lab7.dir
 C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/lab8_main.dir
 C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/modifyString.dir
+C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/Lab11.dir
 C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/rebuild_cache.dir

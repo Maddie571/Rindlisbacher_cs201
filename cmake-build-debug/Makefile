@@ -300,6 +300,19 @@ modifyString\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\modifyString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\modifyString.dir\build
 .PHONY : modifyString\fast
 
+#=============================================================================
+# Target rules for targets named Lab11
+
+# Build rule for target.
+Lab11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Lab11
+.PHONY : Lab11
+
+# fast build rule for target.
+Lab11\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab11.dir\build
+.PHONY : Lab11\fast
+
 BoxesBoxesBoxes.obj: BoxesBoxesBoxes.cpp.obj
 .PHONY : BoxesBoxesBoxes.obj
 
@@ -495,6 +508,30 @@ Lab10.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab10.dir\Lab10.cpp.s
 .PHONY : Lab10.cpp.s
 
+Lab11.obj: Lab11.cpp.obj
+.PHONY : Lab11.obj
+
+# target to build an object file
+Lab11.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab11.dir\Lab11.cpp.obj
+.PHONY : Lab11.cpp.obj
+
+Lab11.i: Lab11.cpp.i
+.PHONY : Lab11.i
+
+# target to preprocess a source file
+Lab11.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab11.dir\Lab11.cpp.i
+.PHONY : Lab11.cpp.i
+
+Lab11.s: Lab11.cpp.s
+.PHONY : Lab11.s
+
+# target to generate assembly for a file
+Lab11.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab11.dir\Lab11.cpp.s
+.PHONY : Lab11.cpp.s
+
 Lab7.obj: Lab7.cpp.obj
 .PHONY : Lab7.obj
 
@@ -655,6 +692,7 @@ help:
 	@echo ... Homework_1_Diamond
 	@echo ... Homework_1_greatest
 	@echo ... Lab10
+	@echo ... Lab11
 	@echo ... Lab7
 	@echo ... ModifyStringMain
 	@echo ... PickANumber
@@ -686,6 +724,9 @@ help:
 	@echo ... Lab10.obj
 	@echo ... Lab10.i
 	@echo ... Lab10.s
+	@echo ... Lab11.obj
+	@echo ... Lab11.i
+	@echo ... Lab11.s
 	@echo ... Lab7.obj
 	@echo ... Lab7.i
 	@echo ... Lab7.s
