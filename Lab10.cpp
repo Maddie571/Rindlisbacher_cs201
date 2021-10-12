@@ -10,7 +10,7 @@ bool isDiv3(int check); //must declare funtion prototypes in lines above where t
 int main()
 {
     for(int i = 1; i <= 40; i++){
-        if(isDiv3(i) == true){
+        if(isDiv3(i)){ //dont need ==, defaults to true
             cout << i << "\n";
         }
     }
