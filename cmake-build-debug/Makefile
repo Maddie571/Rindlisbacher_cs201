@@ -365,6 +365,19 @@ PrintSubStrings\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintSubStrings.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintSubStrings.dir\build
 .PHONY : PrintSubStrings\fast
 
+#=============================================================================
+# Target rules for targets named ReadInt
+
+# Build rule for target.
+ReadInt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ReadInt
+.PHONY : ReadInt
+
+# fast build rule for target.
+ReadInt\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReadInt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ReadInt.dir\build
+.PHONY : ReadInt\fast
+
 BoxesBoxesBoxes.obj: BoxesBoxesBoxes.cpp.obj
 .PHONY : BoxesBoxesBoxes.obj
 
@@ -680,6 +693,30 @@ PrintSubStrings.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintSubStrings.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintSubStrings.dir\PrintSubStrings.cpp.s
 .PHONY : PrintSubStrings.cpp.s
 
+ReadInt.obj: ReadInt.cpp.obj
+.PHONY : ReadInt.obj
+
+# target to build an object file
+ReadInt.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReadInt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ReadInt.dir\ReadInt.cpp.obj
+.PHONY : ReadInt.cpp.obj
+
+ReadInt.i: ReadInt.cpp.i
+.PHONY : ReadInt.i
+
+# target to preprocess a source file
+ReadInt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReadInt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ReadInt.dir\ReadInt.cpp.i
+.PHONY : ReadInt.cpp.i
+
+ReadInt.s: ReadInt.cpp.s
+.PHONY : ReadInt.s
+
+# target to generate assembly for a file
+ReadInt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReadInt.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ReadInt.dir\ReadInt.cpp.s
+.PHONY : ReadInt.cpp.s
+
 Switches.obj: Switches.cpp.obj
 .PHONY : Switches.obj
 
@@ -845,6 +882,7 @@ help:
 	@echo ... ModifyStringMain
 	@echo ... PickANumber
 	@echo ... PrintSubStrings
+	@echo ... ReadInt
 	@echo ... Rindlisbacher_cs201
 	@echo ... Switches
 	@echo ... UserInputMain
@@ -891,6 +929,9 @@ help:
 	@echo ... PrintSubStrings.obj
 	@echo ... PrintSubStrings.i
 	@echo ... PrintSubStrings.s
+	@echo ... ReadInt.obj
+	@echo ... ReadInt.i
+	@echo ... ReadInt.s
 	@echo ... Switches.obj
 	@echo ... Switches.i
 	@echo ... Switches.s
