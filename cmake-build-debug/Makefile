@@ -339,6 +339,19 @@ UserInputMain\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UserInputMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UserInputMain.dir\build
 .PHONY : UserInputMain\fast
 
+#=============================================================================
+# Target rules for targets named isSorted
+
+# Build rule for target.
+isSorted: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) isSorted
+.PHONY : isSorted
+
+# fast build rule for target.
+isSorted\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isSorted.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\isSorted.dir\build
+.PHONY : isSorted\fast
+
 BoxesBoxesBoxes.obj: BoxesBoxesBoxes.cpp.obj
 .PHONY : BoxesBoxesBoxes.obj
 
@@ -678,6 +691,30 @@ UserInputMain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UserInputMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UserInputMain.dir\UserInputMain.cpp.s
 .PHONY : UserInputMain.cpp.s
 
+isSorted.obj: isSorted.cpp.obj
+.PHONY : isSorted.obj
+
+# target to build an object file
+isSorted.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isSorted.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\isSorted.dir\isSorted.cpp.obj
+.PHONY : isSorted.cpp.obj
+
+isSorted.i: isSorted.cpp.i
+.PHONY : isSorted.i
+
+# target to preprocess a source file
+isSorted.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isSorted.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\isSorted.dir\isSorted.cpp.i
+.PHONY : isSorted.cpp.i
+
+isSorted.s: isSorted.cpp.s
+.PHONY : isSorted.s
+
+# target to generate assembly for a file
+isSorted.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isSorted.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\isSorted.dir\isSorted.cpp.s
+.PHONY : isSorted.cpp.s
+
 lab8_main.obj: lab8_main.cpp.obj
 .PHONY : lab8_main.obj
 
@@ -773,6 +810,7 @@ help:
 	@echo ... Rindlisbacher_cs201
 	@echo ... Switches
 	@echo ... UserInputMain
+	@echo ... isSorted
 	@echo ... lab8_main
 	@echo ... modifyString
 	@echo ... sumVector
@@ -818,6 +856,9 @@ help:
 	@echo ... UserInputMain.obj
 	@echo ... UserInputMain.i
 	@echo ... UserInputMain.s
+	@echo ... isSorted.obj
+	@echo ... isSorted.i
+	@echo ... isSorted.s
 	@echo ... lab8_main.obj
 	@echo ... lab8_main.i
 	@echo ... lab8_main.s
