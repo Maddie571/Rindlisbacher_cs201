@@ -66,4 +66,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Lab11.dir/DependInfo.cmake"
   "CMakeFiles/UserInputMain.dir/DependInfo.cmake"
   "CMakeFiles/isSorted.dir/DependInfo.cmake"
+  "CMakeFiles/PrintSubStrings.dir/DependInfo.cmake"
   )

@@ -352,6 +352,19 @@ isSorted\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\isSorted.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\isSorted.dir\build
 .PHONY : isSorted\fast
 
+#=============================================================================
+# Target rules for targets named PrintSubStrings
+
+# Build rule for target.
+PrintSubStrings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PrintSubStrings
+.PHONY : PrintSubStrings
+
+# fast build rule for target.
+PrintSubStrings\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintSubStrings.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintSubStrings.dir\build
+.PHONY : PrintSubStrings\fast
+
 BoxesBoxesBoxes.obj: BoxesBoxesBoxes.cpp.obj
 .PHONY : BoxesBoxesBoxes.obj
 
@@ -643,6 +656,30 @@ PickANumber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PickANumber.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PickANumber.dir\PickANumber.cpp.s
 .PHONY : PickANumber.cpp.s
 
+PrintSubStrings.obj: PrintSubStrings.cpp.obj
+.PHONY : PrintSubStrings.obj
+
+# target to build an object file
+PrintSubStrings.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintSubStrings.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintSubStrings.dir\PrintSubStrings.cpp.obj
+.PHONY : PrintSubStrings.cpp.obj
+
+PrintSubStrings.i: PrintSubStrings.cpp.i
+.PHONY : PrintSubStrings.i
+
+# target to preprocess a source file
+PrintSubStrings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintSubStrings.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintSubStrings.dir\PrintSubStrings.cpp.i
+.PHONY : PrintSubStrings.cpp.i
+
+PrintSubStrings.s: PrintSubStrings.cpp.s
+.PHONY : PrintSubStrings.s
+
+# target to generate assembly for a file
+PrintSubStrings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrintSubStrings.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PrintSubStrings.dir\PrintSubStrings.cpp.s
+.PHONY : PrintSubStrings.cpp.s
+
 Switches.obj: Switches.cpp.obj
 .PHONY : Switches.obj
 
@@ -807,6 +844,7 @@ help:
 	@echo ... Lab7
 	@echo ... ModifyStringMain
 	@echo ... PickANumber
+	@echo ... PrintSubStrings
 	@echo ... Rindlisbacher_cs201
 	@echo ... Switches
 	@echo ... UserInputMain
@@ -850,6 +888,9 @@ help:
 	@echo ... PickANumber.obj
 	@echo ... PickANumber.i
 	@echo ... PickANumber.s
+	@echo ... PrintSubStrings.obj
+	@echo ... PrintSubStrings.i
+	@echo ... PrintSubStrings.s
 	@echo ... Switches.obj
 	@echo ... Switches.i
 	@echo ... Switches.s
