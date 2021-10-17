@@ -8,6 +8,7 @@ C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/Bo
 C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/Fizz.dir
 C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/Lab10.dir
 C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/Switches.dir
+C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/sumVector.dir
 C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/Homework_1_greatest.dir
 C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/Functions.dir
 C:/Users/photo/CLionProjects/Rindlisbacher_cs201/cmake-build-debug/CMakeFiles/Lab7.dir

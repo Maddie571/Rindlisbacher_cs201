@@ -236,6 +236,19 @@ Switches\fast:
 .PHONY : Switches\fast
 
 #=============================================================================
+# Target rules for targets named sumVector
+
+# Build rule for target.
+sumVector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) sumVector
+.PHONY : sumVector
+
+# fast build rule for target.
+sumVector\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sumVector.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sumVector.dir\build
+.PHONY : sumVector\fast
+
+#=============================================================================
 # Target rules for targets named Homework_1_greatest
 
 # Build rule for target.
@@ -713,6 +726,30 @@ modifyString.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\modifyString.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\modifyString.dir\modifyString.cpp.s
 .PHONY : modifyString.cpp.s
 
+sumVector.obj: sumVector.cpp.obj
+.PHONY : sumVector.obj
+
+# target to build an object file
+sumVector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sumVector.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sumVector.dir\sumVector.cpp.obj
+.PHONY : sumVector.cpp.obj
+
+sumVector.i: sumVector.cpp.i
+.PHONY : sumVector.i
+
+# target to preprocess a source file
+sumVector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sumVector.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sumVector.dir\sumVector.cpp.i
+.PHONY : sumVector.cpp.i
+
+sumVector.s: sumVector.cpp.s
+.PHONY : sumVector.s
+
+# target to generate assembly for a file
+sumVector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sumVector.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sumVector.dir\sumVector.cpp.s
+.PHONY : sumVector.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -738,6 +775,7 @@ help:
 	@echo ... UserInputMain
 	@echo ... lab8_main
 	@echo ... modifyString
+	@echo ... sumVector
 	@echo ... BoxesBoxesBoxes.obj
 	@echo ... BoxesBoxesBoxes.i
 	@echo ... BoxesBoxesBoxes.s
@@ -786,6 +824,9 @@ help:
 	@echo ... modifyString.obj
 	@echo ... modifyString.i
 	@echo ... modifyString.s
+	@echo ... sumVector.obj
+	@echo ... sumVector.i
+	@echo ... sumVector.s
 .PHONY : help
 
 

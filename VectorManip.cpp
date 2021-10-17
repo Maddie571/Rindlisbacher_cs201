@@ -5,15 +5,18 @@
 #include "VectorManip.hpp"
 #include <iostream>
 #include <string>
+#include <vector>
 using std::cout;
 using std::endl;
 using std::cin;
 using std::string;
 
-string UserInput()
+vector<string> string VectorManip(vector<string> & manip)
 {
-    string s;
-    cout << "Enter a word, or a keyboard smash, enter 'end' to end";
-    cin >> s;
-    return s;
+    string s = "";
+    cout << "Enter a bunch of words and enter \" done \" when you're done.";
+    while !(s == "done"){
+        cin >> s;
+    }
+    return manip;
 }

@@ -62,6 +62,7 @@ all: CMakeFiles\BoxesBoxesBoxes.dir\all
 all: CMakeFiles\Fizz.dir\all
 all: CMakeFiles\Lab10.dir\all
 all: CMakeFiles\Switches.dir\all
+all: CMakeFiles\sumVector.dir\all
 all: CMakeFiles\Homework_1_greatest.dir\all
 all: CMakeFiles\Functions.dir\all
 all: CMakeFiles\Lab7.dir\all
@@ -86,6 +87,7 @@ clean: CMakeFiles\BoxesBoxesBoxes.dir\clean
 clean: CMakeFiles\Fizz.dir\clean
 clean: CMakeFiles\Lab10.dir\clean
 clean: CMakeFiles\Switches.dir\clean
+clean: CMakeFiles\sumVector.dir\clean
 clean: CMakeFiles\Homework_1_greatest.dir\clean
 clean: CMakeFiles\Functions.dir\clean
 clean: CMakeFiles\Lab7.dir\clean
@@ -354,6 +356,32 @@ Switches: CMakeFiles\Switches.dir\rule
 CMakeFiles\Switches.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Switches.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Switches.dir\clean
 .PHONY : CMakeFiles\Switches.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sumVector.dir
+
+# All Build rule for target.
+CMakeFiles\sumVector.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sumVector.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sumVector.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sumVector.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sumVector.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target sumVector"
+.PHONY : CMakeFiles\sumVector.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\sumVector.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\sumVector.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\photo\CLionProjects\Rindlisbacher_cs201\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\sumVector.dir\rule
+
+# Convenience name for target.
+sumVector: CMakeFiles\sumVector.dir\rule
+.PHONY : sumVector
+
+# clean rule for target.
+CMakeFiles\sumVector.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sumVector.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sumVector.dir\clean
+.PHONY : CMakeFiles\sumVector.dir\clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Homework_1_greatest.dir

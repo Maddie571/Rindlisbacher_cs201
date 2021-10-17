@@ -13,13 +13,5 @@ using std::string;
 
 int main()
 {
-    string s;
-    string check;
-    while (!(check == "end")) { // !(expression with ==) is how you do false in c++
-        s += check;
-        s += " ";
-        check = UserInput();
-    }
-    cout << s;
     return 0;
 }
