@@ -10,13 +10,12 @@ using std::cout;
 using std::endl;
 using std::cin;
 using std::string;
+using std::vector;
 
-vector<string> string VectorManip(vector<string> & manip)
+vector<string> VectorManip(vector<string> & manip)
 {
-    string s = "";
-    cout << "Enter a bunch of words and enter \" done \" when you're done.";
-    while !(s == "done"){
-        cin >> s;
+    for(int i = 0; i < manip.size(); i++){
+        cout << manip.at(i) << " ";
     }
     return manip;
 }

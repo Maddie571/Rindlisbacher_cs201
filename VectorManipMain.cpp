@@ -5,13 +5,16 @@
 
 #include <iostream>
 #include <string>
-#include "UserInput.cpp"
+#include "VectorManip.cpp"
 using std::cout;
 using std::endl;
 using std::cin;
 using std::string;
+using std::vector;
 
 int main()
 {
+    vector<string> manip {"Hello", "I", "Am", "Very", "Far", "Behind"};
+    VectorManip(manip);
     return 0;
 }

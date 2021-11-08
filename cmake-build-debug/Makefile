@@ -366,6 +366,19 @@ PrintSubStrings\fast:
 .PHONY : PrintSubStrings\fast
 
 #=============================================================================
+# Target rules for targets named VectorManipMain
+
+# Build rule for target.
+VectorManipMain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) VectorManipMain
+.PHONY : VectorManipMain
+
+# fast build rule for target.
+VectorManipMain\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VectorManipMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VectorManipMain.dir\build
+.PHONY : VectorManipMain\fast
+
+#=============================================================================
 # Target rules for targets named ReadInt
 
 # Build rule for target.
@@ -765,6 +778,30 @@ UserInputMain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UserInputMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\UserInputMain.dir\UserInputMain.cpp.s
 .PHONY : UserInputMain.cpp.s
 
+VectorManipMain.obj: VectorManipMain.cpp.obj
+.PHONY : VectorManipMain.obj
+
+# target to build an object file
+VectorManipMain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VectorManipMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VectorManipMain.dir\VectorManipMain.cpp.obj
+.PHONY : VectorManipMain.cpp.obj
+
+VectorManipMain.i: VectorManipMain.cpp.i
+.PHONY : VectorManipMain.i
+
+# target to preprocess a source file
+VectorManipMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VectorManipMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VectorManipMain.dir\VectorManipMain.cpp.i
+.PHONY : VectorManipMain.cpp.i
+
+VectorManipMain.s: VectorManipMain.cpp.s
+.PHONY : VectorManipMain.s
+
+# target to generate assembly for a file
+VectorManipMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VectorManipMain.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VectorManipMain.dir\VectorManipMain.cpp.s
+.PHONY : VectorManipMain.cpp.s
+
 isSorted.obj: isSorted.cpp.obj
 .PHONY : isSorted.obj
 
@@ -886,6 +923,7 @@ help:
 	@echo ... Rindlisbacher_cs201
 	@echo ... Switches
 	@echo ... UserInputMain
+	@echo ... VectorManipMain
 	@echo ... isSorted
 	@echo ... lab8_main
 	@echo ... modifyString
@@ -938,6 +976,9 @@ help:
 	@echo ... UserInputMain.obj
 	@echo ... UserInputMain.i
 	@echo ... UserInputMain.s
+	@echo ... VectorManipMain.obj
+	@echo ... VectorManipMain.i
+	@echo ... VectorManipMain.s
 	@echo ... isSorted.obj
 	@echo ... isSorted.i
 	@echo ... isSorted.s
